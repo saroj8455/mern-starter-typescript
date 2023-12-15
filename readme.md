@@ -1,10 +1,21 @@
 ## Node v18
 
-## A Notes Manager App Node,Express,Mongo and Typescript
+## A  App Node App using NodeJs, Express, Mongo, using Typescript
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+`npm run dev`<br>
+
+## Create a .env root of the project
+```env
+PORT=8004
+MONGOURI=mongodb://localhost:27017/
+REMOTEURI=<YOUR_REMOTE_URL>
+NODE_ENV=devlopment
+JWTKEY=<YOUR_JWT_KEY>
+TZ = Asia/Calcutta
+```
 
 ## Upload API
 
